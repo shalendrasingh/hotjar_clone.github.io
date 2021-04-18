@@ -1,0 +1,2169 @@
+#footer {
+  background-color: rgb(226, 223, 223);
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* reuseable style code for header */
+.font {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.lightFont {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 400;
+}
+.font-light {
+  font-family: "open-sans";
+}
+.textGrey {
+  color: grey;
+}
+.align {
+  text-align: center;
+}
+.border {
+  border: 1px solid red;
+}
+.dash {
+  border: 1px dashed red;
+}
+.zeroPadMar {
+  padding: 0px;
+  margin: 0px;
+}
+.redBackground {
+  background-color: red;
+  color: white;
+}
+.blueBackgroundColor {
+  background-color: #a0ece7;
+  color: white;
+}
+.greyBorder {
+  border: 1px solid grey;
+}
+.borderRadius {
+  border-radius: 40px;
+}
+.btnBackgroundColor {
+  background-color: #3367d6;
+  color: white;
+}
+
+/* style for header sectio */
+#header {
+  width: 100%;
+  height: 14%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+.logo {
+  width: 8%;
+  height: 80%;
+  margin-top: 10px;
+  float: left;
+  clear: left;
+  margin-left: 5%;
+}
+
+.logoimg {
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown2 a {
+  text-decoration: none;
+}
+.sign-in a {
+  text-decoration: none;
+  color: black;
+}
+
+.h-try-btn > a {
+  color: white;
+  text-decoration: none;
+}
+.logoimg {
+  width: 100%;
+  height: 100%;
+}
+.block_color {
+  border: 1px solid red;
+}
+
+/* header drop down meeting */
+.drop-btn,
+.drop-btn1,
+.drop-btn2,
+.drop-btn3 {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* .drop-btn1 {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.drop-btn2 {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.drop-btn3 {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* header drop down menu */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 68px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .drop-btn {
+  background-color: red;
+}
+
+/* =========================================== */
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown2 a {
+  text-decoration: none;
+}
+
+.dropdown-content-p {
+  display: none;
+  position: absolute;
+  top: 75px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content-p a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-p a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown1:hover .dropdown-content-p {
+  display: block;
+}
+
+.dropdown1:hover .drop-btn1 {
+  background-color: red;
+}
+/* ============= */
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-r {
+  display: none;
+  position: absolute;
+  top: 68px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content-r a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-r a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown3:hover .dropdown-content-r {
+  display: block;
+}
+
+.dropdown3:hover .drop-btn3 {
+  background-color: red;
+}
+/* ========== drop-btn 2  ================ */
+.dropdown2:hover .drop-btn2 {
+  background-color: red;
+}
+
+/* style code for navbar */
+.navbar {
+  margin-top: 10px;
+  margin-right: 60px;
+  float: right;
+}
+
+.navbar > div {
+  width: 150px;
+  height: 60px;
+  float: left;
+  margin: 10px;
+}
+
+.notice {
+  width: 100%;
+  height: 40px;
+  margin-top: 120px;
+  float: left;
+  clear: left;
+}
+.notice div:nth-child(1),
+.notice div:nth-child(2),
+.notice div:nth-child(3) {
+  width: 30%;
+  float: left;
+}
+
+.notice div:nth-child(1) > p,
+.notice div:nth-child(2) > p,
+.notice div:nth-child(3) > p {
+  font-size: 14px;
+  margin-left: 1%;
+}
+/* style code for icons */
+.icon-check {
+  font-size: 24px !important;
+  float: left;
+  margin: 10px;
+  margin-left: 200px;
+  color: red;
+}
+
+/* body intro section style code */
+.bodyIntro {
+  width: 1580px;
+  height: 400px;
+  float: left;
+  margin-top: 40px;
+}
+
+.intro-head {
+  font-size: 48px;
+  font-weight: 700;
+}
+.intro-head-div {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.intro-tag {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 24px;
+}
+
+.signup-btn-cont {
+  width: 800px;
+  height: 150px;
+  margin: 0px auto;
+}
+.btn-1 {
+  border: 1px solid blue;
+  width: 300px;
+  height: 60px;
+  float: left;
+  margin: 20px 40px;
+  border-radius: 50px;
+}
+.btn-2 {
+  width: 300px;
+  height: 60px;
+  margin: 20px 40px;
+
+  float: left;
+  border-radius: 50px;
+}
+
+.icon-login {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 30px;
+  margin-top: 15px;
+  float: left;
+  color: red;
+  font-size: 30px !important;
+}
+.sign-p {
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.caption {
+  font-size: 12px;
+  margin: 10px 200px;
+}
+
+/* body section one style code  */
+.body-section-one {
+  width: 1580px;
+  height: 700px;
+  float: left;
+}
+.img-showcase {
+  width: 620px;
+  height: 600px;
+  float: left;
+  margin: 20px 0px;
+  margin-left: 150px;
+  background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: contain;
+}
+
+.work-showcase {
+  width: 80px;
+  height: 600px;
+  float: right;
+  clear: right;
+  margin-right: 100px;
+}
+
+.workshowcase-r-box {
+  width: 550px;
+  height: 600px;
+  clear: right;
+  float: right;
+  margin: 20px 30px;
+  margin-right: 120px;
+}
+/* this is code for behaviour and feedback */
+.showcase-tag {
+  margin: 10px 30px;
+}
+
+.behave-cont-1 {
+  width: 200px;
+  float: left;
+  margin: 15px 30px;
+}
+.behave-cont-2 {
+  width: 200px;
+  margin: 15px 30px;
+  float: left;
+  clear: left;
+}
+.showcase-feedback {
+  clear: left;
+}
+
+.show-caption {
+  margin: 15px 30px;
+
+  float: left;
+  clear: left;
+}
+.icon-show {
+  font-size: 30px !important;
+  float: left;
+  margin: 10px;
+  color: red;
+}
+.behave-cont-3 {
+  width: 400px;
+  margin: 15px 30px;
+  float: left;
+  clear: left;
+}
+
+/* trust section code  */
+.trustSection {
+  width: 900px;
+  height: 100px;
+  margin: 20px auto;
+  margin-left: 350px;
+  text-align: center;
+  float: left;
+}
+.span {
+  width: 100px;
+  height: 40px;
+  float: left;
+  margin: 0px 24px;
+  text-align: center;
+}
+.a {
+  height: 50px;
+}
+
+/* ============================================================================================*/
+
+/* GDPR SECTION */
+/*============================================================================================== */
+.gdpr-section {
+  width: 900px;
+  height: 200px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 350px;
+  background-color: #f9f9f9;
+}
+.gdpr-left {
+  width: 250px;
+  height: 150px;
+  margin: 20px;
+  margin-left: 50px !important;
+  margin-top: 40px !important;
+  float: left;
+}
+.gdpr-right {
+  float: left;
+  margin-left: 200px !important;
+  margin-top: 40px !important;
+}
+.gdpr-img-1 {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-left: 40px;
+}
+.gdpr-img-2 {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-left: 40px;
+}
+
+/* =======================================================================================================
+                code for body section boxes part 
+ ============================================================*/
+.market-main-div {
+  width: 75%;
+  height: 500px;
+  margin: 30px auto;
+  margin-left: 230px;
+  float: left;
+}
+.market {
+  width: 18%;
+  height: 420px;
+  float: left;
+  margin: 20px 40px;
+}
+.product {
+  width: 18%;
+  height: 420px;
+  float: left;
+  margin: 20px 40px;
+}
+.uxdesign {
+  width: 18%;
+  height: 420px;
+  float: left;
+  margin: 20px 40px;
+}
+.build {
+  width: 18%;
+  height: 400px;
+  float: left;
+  margin: 20px 20px;
+}
+.market-img {
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("https://static-cms.hotjar.com/original_images/brand-personas-marketers.jpg");
+}
+.product-img {
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-image: url("https://static-cms.hotjar.com/original_images/brand-personas-product-managers.jpg");
+}
+.uxdesign-img {
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-image: url("https://static-cms.hotjar.com/original_images/brand-personas-ux-designers.jpg");
+}
+.descp > h2 {
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+  margin-top: 5px !important;
+  margin-left: 10px !important;
+}
+
+.build-desc {
+  margin-top: 120px;
+  text-align: left;
+}
+.build-span {
+  margin: 10px;
+}
+
+/* ============================================================================
+                  style for technology imageshowcase section
+ ========================================== */
+.img-main-div {
+  width: 1200px;
+  margin: 10px auto;
+  margin-left: 200px;
+  height: 550px;
+  float: left;
+}
+.img-show {
+  width: 900;
+  height: 420px;
+  margin: 40px 50px;
+  background-image: url("https://static-cms.hotjar.com/documents/brand-one-script_Twj5bMZ.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.h2-tag {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* =============================================================================
+style code for get started section
+====================================================== */
+
+.get-started-div {
+  width: 1200px;
+  height: 600px;
+  margin: 10px 200px;
+  float: left;
+}
+.getStarted-img {
+  width: 700px;
+  height: 300px;
+  margin: 20px auto;
+  background-size: contain;
+  background-image: url("https://static-cms.hotjar.com/original_images/brand-get-started.jpg");
+}
+.getStartedTag {
+  text-align: center;
+}
+
+.getStartBtn {
+  border: 1px solid red;
+  width: 220px;
+  height: 60px;
+  margin: 20px auto;
+  border-radius: 50px;
+  text-align: center;
+}
+.getStartBtn > a {
+  text-decoration: none;
+  color: white;
+}
+.tryItBtn {
+  margin: 20px;
+}
+.getStartCaption {
+  margin: 10px 550px;
+}
+
+/* =============================================================================
+style code for header section
+====================================================== */
+
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
+#AboutMain {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+#AboutMain > div {
+  width: 100%;
+  height: 350px;
+  margin-top: 5%;
+}
+#AboutMain > div:nth-child(1) {
+  height: 550px;
+  background-color: #f4f4f4;
+}
+.TopBox > div:nth-child(1),
+.TopBox > div:nth-child(2),
+.MiddleBox > div:nth-child(1),
+.MiddleBox > div:nth-child(2),
+.BottomBox > div:nth-child(1),
+.BottomBox > div:nth-child(2) {
+  width: 55%;
+  height: 100%;
+  float: left;
+}
+.TopBox > div:nth-child(2),
+.MiddleBox > div:nth-child(2),
+.BottomBox > div:nth-child(2) {
+  width: 40%;
+  height: 90%;
+  margin: 2%;
+}
+.TopBox > div:nth-child(2) {
+  margin-top: 5%;
+  height: 65%;
+}
+#Feedback {
+  width: 50px;
+  height: 150px;
+  position: fixed;
+  top: 30%;
+  left: 97%;
+  background: #ff5151;
+  border-radius: 5px;
+}
+/* .Feedback > p { */
+#Feedback > p {
+  padding-left: 4px;
+  padding-top: 18px;
+  line-height: 1px;
+  font-size: 18px;
+  color: white;
+  writing-mode: vertical-rl;
+}
+.Feedbackimg {
+  margin-top: 6px;
+  margin-left: 10px;
+  width: 25px;
+  height: 30px;
+}
+
+#Feedback:hover {
+  box-shadow: 20px 20px 50px 15px grey;
+}
+.imgbox {
+  width: 100%;
+  height: 100%;
+}
+.arrowimg {
+  width: 35px;
+  height: 25px;
+  float: left;
+}
+
+#showMore {
+  margin-right: 80%;
+}
+.CustomerBox > div:nth-child(1) {
+  text-align: center;
+  width: 100%;
+  height: 80px;
+}
+.CustomerBox > div:nth-child(2) {
+  width: 100%;
+  height: 200px;
+}
+.CustomerBox > div:nth-child(3) {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+.CustomerLogo > div:nth-child(1),
+.CustomerLogo > div:nth-child(2),
+.CustomerLogo > div:nth-child(3),
+.CustomerLogo > div:nth-child(4),
+.CustomerLogo > div:nth-child(5),
+.CustomerLogo > div:nth-child(6) {
+  width: 10%;
+  height: 28%;
+  float: left;
+  margin: 3%;
+}
+.CustomerLogo > div:nth-child(1) {
+  margin-left: 5%;
+}
+
+.P-about {
+  text-align: left;
+}
+/* Style sheet for about page end */
+/* style for footer */
+
+#footer {
+  background-color: #f9f9f9;
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#column1,
+#column2,
+#column3,
+#column4 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+#column1 > a,
+#column2 > a,
+#column3 > a,
+#column4 > a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: black;
+}
+.img {
+  height: 30px;
+  width: 30px;
+  margin-top: 40px;
+}
+
+.clear {
+  clear: both;
+}
+#column2 > div {
+  margin-top: 65px;
+}
+#fb > .clear {
+  clear: both;
+}
+#column2 > div {
+  margin-top: 65px;
+}
+#fb {
+  margin-top: 180px;
+}
+/* =============================================================================
+style code for get started section
+====================================================== */
+
+.get-started-div {
+  width: 1200px;
+  height: 600px;
+  margin: 10px 200px;
+  float: left;
+  /* clear: left; */
+}
+.getStarted-img {
+  width: 700px;
+  height: 300px;
+  margin: 20px auto;
+  background-size: contain;
+  background-image: url("https://static-cms.hotjar.com/original_images/brand-get-started.jpg");
+}
+.getStartedTag {
+  text-align: center;
+}
+.getStartBtn {
+  border: 1px solid red;
+  width: 220px;
+  height: 60px;
+  margin: 20px auto;
+  border-radius: 50px;
+  text-align: center;
+}
+.tryItBtn {
+  margin: 20px;
+}
+.getStartCaption {
+  font-size: 14px;
+  margin: 10px 540px;
+}
+/* =============================================================================
+style code for Login section
+====================================================== */
+#Signinmain {
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+}
+
+#Signinmain > div:nth-child(1) {
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  top: 0.9px;
+}
+#Signinmain > div:nth-child(2),
+#Signinmain > div:nth-child(3) {
+  height: 100%;
+  width: 45%;
+  border: 1px solid white;
+  float: left;
+}
+
+#Signinmain > div:nth-child(2) {
+  position: fixed;
+  margin-top: 4%;
+  background-color: white;
+}
+
+#Signinmain > div:nth-child(3) {
+  width: 54%;
+  float: left;
+  margin-left: 46%;
+}
+/* remove nodes */
+
+#Signinmain > div:nth-child(2) > div:nth-child(1),
+#Signinmain > div:nth-child(2) > div:nth-child(2),
+#Signinmain > div:nth-child(2) > div:nth-child(4) {
+  width: 99%;
+  height: 22%;
+  /* border: 1px solid white; */
+}
+
+#Signinmain > div:nth-child(2) > div:nth-child(1),
+#Signinmain > div:nth-child(2) > div:nth-child(2) {
+  height: 20%;
+}
+#Signinmain > div:nth-child(2) > div:nth-child(3) {
+  width: 99%;
+  height: 28%;
+  /* border: 1px solid white; */
+}
+
+#Signinmain > div:nth-child(3) {
+  width: 54%;
+  height: 88%;
+  margin-top: 4%;
+  background-color: #e7e8ea;
+}
+#Signinmain > div:nth-child(2) > div:nth-child(1) > h1 {
+  font-size: 40px;
+  margin-left: 7%;
+  line-height: 5%;
+}
+#Signinmain > div:nth-child(2) > div:nth-child(1) > p {
+  font-size: 18px;
+  color: grey;
+  margin-right: 44%;
+}
+.Loginlogoimg {
+  width: 100px;
+  height: 60px;
+  margin: auto;
+}
+.loginbtn {
+  width: 80%;
+  height: 58%;
+  background-color: #5284ed;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  margin-left: 7%;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+}
+
+.loginbtn:hover {
+  cursor: pointer;
+  background-color: #3367d6;
+}
+.btnimg {
+  margin-right: 7%;
+  width: 15%;
+  height: 86%;
+  margin-top: 3.8px;
+}
+.Glogotxt {
+  cursor: pointer;
+  padding-top: 5%;
+  color: rgb(255, 255, 255);
+  margin-right: 7%;
+}
+.leftbox {
+  width: 90%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.Jarimg {
+  width: 100%;
+  height: 100%;
+}
+.leftboxtxt > h2,p {
+  text-align: center;
+}
+.leftboxtxt > p {
+  font-size: 15px;
+  line-height: 1px;
+  color: grey;
+}
+.Learnmorebtn {
+  width: 25%;
+  height: 50px;
+  margin-left: 42%;
+  background-color: #e7e8ea;
+  border: 1px solid grey;
+}
+.Learnmorebtn:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+.logintxtbox {
+  width: 100%;
+  height: 20%;
+  border: 1px solid white;
+  display: flex;
+}
+.lftline,.midtext,.rtline {
+  width: 26%;
+  height: 8%;
+  margin: 1%;
+  background-color: #e7e8ea;
+}
+.lftline,.rtline {
+  margin-top: 4%;
+}
+.lftline {
+  margin-left: 5%;
+}
+.midtext {
+  height: 20px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+.Login-P {
+  font-size: 12px;
+  color: rgb(87, 87, 87);
+}
+.LoginFields > div:nth-child(1),
+.LoginFields > div:nth-child(2) {
+  width: 100%;
+  height: 49%;
+  /* border: 1px solid black; */
+}
+.Inputbox {
+  width: 76%;
+  height: 30%;
+  margin-left: 50px;
+  border: 1px solid rgb(206, 205, 205);
+}
+.Inputbox:hover {
+  border: 1px solid black;
+}
+.h4-Login {
+  margin-left: 50px;
+  color: rgb(46, 46, 46);
+  font-weight: lighter;
+}
+.Passwordlogin {
+  margin-left: 42%;
+  color: rgb(151, 151, 151);
+}
+.Passwordlogin:hover {
+  color: rgb(61, 61, 61);
+}
+.Signinbtn > div:nth-child(1),
+.Signinbtn > div:nth-child(2) {
+  width: 100%;
+  height: 30%;
+  border: 1px solid white;
+}
+.Signinbtn > div:nth-child(2) {
+  height: 42%;
+}
+.Labellogin {
+  color: rgb(87, 85, 85);
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 1.2%;
+  margin-left: 6%;
+  cursor: pointer;
+}
+.Labellogin:hover {
+  color: rgb(17, 17, 17);
+}
+.Signinbtngreen {
+  padding-top: 2%;
+  padding-left: 35%;
+  height: 60px;
+  background-color: #69bd6e;
+  margin-left: 7%;
+}
+.Signinbtngreen:hover {
+  background-color: #3cba43;
+  cursor: pointer;
+}
+/* =============================================================================*/
+/*style code for ResetPassword section*/
+/*====================================================== */
+.Forgotpass-P {
+  text-align: left;
+  margin-left: 5%;
+  font-size: 15px !important;
+}
+.FP-h1 {
+  margin-top: 5%;
+  margin-left: 5% !important;
+}
+.LoginFields-FP {
+  margin-top: 2%;
+}
+.Inputbox-FP {
+  margin-left: 5%;
+  height: 35px;
+  width: 80%;
+}
+.label-FP{
+  font-weight: bold;
+  margin-left: 5%;
+  color:rgb(92, 88, 88)
+}
+.Submitbtn-FP {
+  width: 55%;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding-left: 12%;
+}
+.Goback {
+  color: grey;
+}
+.Goback:hover {
+  color: rgb(75, 75, 75);
+}
+/* =============================================================================*/
+/*style code for Sign Up section*/
+/*====================================================== */
+.Signupcontainer {
+  width: 100%;
+  height: 550px;
+  /* border: 1px solid black; */
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+.Signupcontainer > h2 {
+  margin-top: 40px;
+  text-align: center;
+  color: rgb(73, 73, 73);
+}
+.Signuplogo {
+  width: 34%;
+  margin-left: 33%;
+  margin-top: 4%;
+  height: 15%;
+}
+.Signuplftline {
+  margin-top: 3%;
+  margin-left: 32.5%;
+  width: 15%;
+}
+.Signupmidtext {
+  width: 2%;
+}
+.Signupmidtext > p {
+  font-size: 15px !important;
+}
+.Signuprtline {
+  margin-top: 3%;
+  width: 13.5%;
+}
+.Signupbtngreen {
+  width: 34%;
+  height: 15%;
+  margin-left: 33%;
+  margin-top: 2%;
+  padding-left: 14%;
+}
+.Signuptxtbox {
+  height: 50px;
+}
+.Signup-P {
+  margin-top: 30px;
+  margin-right: 16%;
+  font-size: 13px;
+}
+.Signupbottomlogo {
+  width: 25%;
+  height: 35%;
+}
+/* =======================================================================================================
+                code for Careers part 
+ ============================================================*/
+#Careersmaincontainer {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  background-image: url("https://d27i7n2isjbnbi.cloudfront.net/careers/photos/98820/normal_photo_1549035144.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.Careersnavbar {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  display: flex;
+}
+.Careersnavbar > div:nth-child(1) {
+  margin-left: 5%;
+  width: 10%;
+  height: 90%;
+  /* border: 1px solid black; */
+}
+.Careersnavbar > div:nth-child(2),
+.Careersnavbar > div:nth-child(3),
+.Careersnavbar > div:nth-child(4),
+.Careersnavbar > div:nth-child(5) {
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 6%;
+  height: 60%;
+  /* border: 1px solid black; */
+}
+.Careersnavbutton {
+  margin-left: 25%;
+  margin-top: 1.5%;
+  height: 65%;
+  width: 12%;
+  background-color: rgb(255, 64, 64);
+  text-align: left;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
+.Careersnavbutton:hover {
+  background-color: red;
+}
+.Careersnavbar > div:nth-child(7),
+.Careersnavbar > div:nth-child(8),
+.Careersnavbar > div:nth-child(9) {
+  margin-top: 3%;
+  margin-left: 2%;
+  width: 2%;
+  height: 30%;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+}
+.Careers-a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(252, 106, 106);
+}
+.Careers-a:hover {
+  color: rgb(255, 0, 0);
+}
+/* .Careersnavbuttonimg{
+  width: 35%;
+  height: 100%;
+  margin-left: 20px;
+} */
+.Careerlab {
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#Careerculture {
+  margin-top: 300px;
+  width: 100%;
+  height: 700px;
+  background-color: white;
+}
+.Careers-h1 {
+  padding-top: 80px;
+  font-size: 30px;
+  text-align: center;
+}
+#Careerculture > p {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 20px;
+  color: rgb(138, 138, 138);
+}
+.Careerli {
+  font-size: 18px;
+  text-align: left;
+  color: rgb(138, 138, 138);
+}
+.Careerhref {
+  color: rgb(253, 72, 72);
+}
+.Careerhref:hover {
+  color: rgb(255, 0, 0);
+}
+#Careersperk {
+  width: 100%;
+  height: 550px;
+  background-color: wheat;
+  background-image: url("https://www.lifeofpix.com/wp-content/uploads/2018/07/270-niwat5455546521-chim.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* filter: brightness(10%); */
+}
+#Careersperk > h2 {
+  margin: 0px;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+#Careersperk > p {
+  color: rgb(160, 160, 160);
+}
+.li1,
+.li2,
+.li3 {
+  float: left;
+  font-size: 20px;
+  line-height: 50px;
+  color: white;
+  padding-left: 8%;
+}
+.Lovework {
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.Lovework > strong {
+  font-size: 30px;
+}
+.Lovework > strong {
+  margin-right: 6%;
+}
+.Lovework > h3 {
+  color: grey;
+}
+.Dreamjob {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+.Careervideo {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+.Careervideo > iframe {
+  margin-left: 5%;
+}
+.Careerrecruitment {
+  width: 100%;
+  height: 200px;
+  /* border: 1px solid black; */
+}
+.Careerrecruitmentimg {
+  width: 100%;
+  height: 100%;
+}
+#Joblist {
+  width: 100%;
+  height: 1200px;
+  background-color: white;
+}
+#Joblist > div:nth-child(1) {
+  width: 80%;
+  height: 100px;
+  border: 1px solid #ccd1d9;
+  margin: auto;
+  border-radius: 5px;
+}
+#Joblist > div:nth-child(2),
+#Joblist > div:nth-child(3),
+#Joblist > div:nth-child(4),
+#Joblist > div:nth-child(5),
+#Joblist > div:nth-child(6),
+#Joblist > div:nth-child(7),
+#Joblist > div:nth-child(8),
+#Joblist > div:nth-child(9) {
+  width: 80%;
+  height: 100px;
+  border: 1px solid #ccd1d9;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+#Joblist > div:nth-child(1) > div:nth-child(1),
+#Joblist > div:nth-child(2) > div:nth-child(1),
+#Joblist > div:nth-child(3) > div:nth-child(1),
+#Joblist > div:nth-child(4) > div:nth-child(1),
+#Joblist > div:nth-child(5) > div:nth-child(1),
+#Joblist > div:nth-child(6) > div:nth-child(1),
+#Joblist > div:nth-child(7) > div:nth-child(1),
+#Joblist > div:nth-child(8) > div:nth-child(1),
+#Joblist > div:nth-child(9) > div:nth-child(1) {
+  width: 35%;
+  height: 100px;
+  /* border: 1px solid black; */
+  float: left;
+}
+
+#Joblist > div:nth-child(1) > button,
+#Joblist > div:nth-child(2) > button,
+#Joblist > div:nth-child(3) > button,
+#Joblist > div:nth-child(4) > button,
+#Joblist > div:nth-child(5) > button,
+#Joblist > div:nth-child(6) > button,
+#Joblist > div:nth-child(7) > button,
+#Joblist > div:nth-child(8) > button,
+#Joblist > div:nth-child(9) > button {
+  width: 10%;
+  height: 50px;
+  float: right;
+  margin-top: 1.8%;
+  color: white;
+  background-color: #d5162b;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+}
+#Joblist > div:nth-child(1) > button:hover,
+#Joblist > div:nth-child(2) > button:hover,
+#Joblist > div:nth-child(3) > button:hover,
+#Joblist > div:nth-child(4) > button:hover,
+#Joblist > div:nth-child(5) > button:hover,
+#Joblist > div:nth-child(6) > button:hover,
+#Joblist > div:nth-child(7) > button:hover,
+#Joblist > div:nth-child(8) > button:hover,
+#Joblist > div:nth-child(9) > button:hover {
+  background-color: #9c0012;
+}
+.Job-box-main {
+  width: 100%;
+  height: 25px;
+  /* border: 1px solid black; */
+}
+.Careerlbl1 {
+  background-color: #e6f0f6;
+  color: #ea3448;
+  padding: 5px;
+}
+.Careerlbl2 {
+  padding-left: 6%;
+  color: #ea3448;
+}
+.Careerpara {
+  width: 100%;
+  height: 130px;
+  border: 1px solid white;
+  background-color: white;
+}
+.Careerpara > p {
+  font-size: 22px;
+  text-align: left;
+  font-weight: normal;
+  margin-left: 20px;
+  color: #595e6e;
+}
+.Careervideo2 {
+  width: 100%;
+  height: 700px;
+  /* border: 1px solid black; */
+  background-color: white;
+}
+.Cvideo2 {
+  margin-left: 8%;
+}
+.Careervideo2 > p,
+strong {
+  font-size: 18px !important;
+  text-align: left;
+  padding-left: 110px !important;
+  color: rgb(138, 138, 138);
+}
+.Glassdoorcareer {
+  width: 100%;
+  height: 130px;
+  background-color: white;
+  border: 1px solid white;
+}
+.Glassdoorimg-container {
+  width: 42%;
+  height: 60px;
+  /* border: 1px solid black;  */
+  margin-top: 40px;
+  margin-left: 25%;
+  cursor: pointer;
+}
+.Careerbottombox,
+.Careerbottombox1 {
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid black;  */
+}
+.Careerbottombox1 {
+  background-color: white;
+  position: relative;
+  height: 150px;
+}
+.strong-career {
+  width: 100%;
+  height: 80px;
+  /* border: 1px solid darksalmon; */
+  font-size: 18px !important;
+  /* text-align: left; */
+  padding-left: 0px !important;
+  color: rgb(138, 138, 138);
+  background-color: white;
+}
+.Careerbottombox2 {
+  width: 80%;
+  height: 120px;
+  /* border: 1px solid black; */
+  background-color: white;
+  position: absolute;
+  bottom: 90px;
+  right: 10%;
+}
+.Priacycareer {
+  width: 100%;
+  height: 100px;
+  /* margin-top: 60px; */
+  /* padding-top: 50px; */
+  /* border: 1px solid magenta; */
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  text-align: center;
+}
+.bottomlogocontainer {
+  width: 35%;
+  height: 80px;
+  /* border: 1px solid magenta; */
+  margin-left: 37%;
+}
+.bottomlogocontainer-p {
+  text-align: left;
+  font-size: 18px;
+  float: left;
+  color: #595e6e;
+  padding-top: 10px;
+}
+.bottomlogocontainer-img {
+  width: 50%;
+  height: 90%;
+  /* border: 1px solid rgb(31, 25, 31); */
+  float: left;
+  padding-left: 15px;
+}
+.Careerpiracy-P {
+  color: #595e6e;
+}
+.Careerpiracy-P:hover {
+  color: rgb(33, 168, 212);
+}
+/* Slide show used code from W3schools.com */
+/* .slideshow-container {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black; */
+  /* position: relative;
+  margin: auto; */
+/* } */
+/* Next & previous buttons */
+/* .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+} */
+
+/* Position the "next button" to the right */
+/* .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+} */
+
+/* On hover, add a black background color with a little bit see-through */
+/* .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+} */
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+
+/* .active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+} */
+/* 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} */
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} */
+
+/* Slideshow used code from W3schools.com ends here*/
+
+/*style  code for support doc page */
+#help-header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  background-color: #354459;
+}
+
+.h-sign-in a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown2 a {
+  text-decoration: none;
+}
+
+/* header drop down meeting */
+.h-drop-btn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.h-drop-btn1 {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.h-drop-btn2 {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.h-drop-btn3 {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.help-cont {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 300px;
+  background-color: #303e53;
+  margin-top: 80px;
+}
+#search-box {
+  width: 80%;
+  height: 50px;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 20px;
+}
+.input-box-div {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 200px;
+  margin: 50px auto;
+  text-align: center;
+  color: white;
+}
+.popular-div {
+  width: 100%;
+  height: 300px;
+}
+.pop-h1 {
+  color: red;
+  font-weight: 300;
+  text-align: center;
+}
+.popular-div a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(88, 87, 87);
+}
+.float-l {
+  float: left;
+}
+.clear-l {
+  clear: left;
+}
+
+.h-link-left-div {
+  width: 45%;
+  height: 150px;
+  float: left;
+  margin: 10px 30px;
+}
+.h-link-left-div a {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.h-link-right-div a {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.h-link-right-div {
+  width: 45%;
+  height: 150px;
+  float: left;
+  margin: 10px 30px;
+}
+
+/* ========== */
+.ui-body-div {
+  width: 100%;
+  height: 1100px;
+  background-color: #f5f5f5;
+}
+.ui-h1 {
+  color: red;
+  font-weight: 300;
+  text-align: center;
+}
+
+.ui-boxes-div {
+  width: 100%;
+}
+.white-bg {
+  background-color: #ffffff;
+}
+.ui-box1 {
+  width: 25%;
+  height: 300px;
+}
+.ui-box2 {
+  width: 25%;
+  height: 300px;
+}
+.ui-box3 {
+  width: 25%;
+  height: 300px;
+}
+.ui-box4 {
+  width: 25%;
+  height: 300px;
+}
+.ui-box5 {
+  width: 25%;
+  height: 300px;
+}
+.ui-box6 {
+  width: 25%;
+  height: 300px;
+}
+.ui-box7 {
+  width: 25%;
+  height: 300px;
+}
+.ui-box8 {
+  width: 25%;
+  height: 300px;
+}
+.ui-box9 {
+  width: 25%;
+  height: 300px;
+}
+.ui-margin-l {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.ui-img1 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+  background-size: contain;
+  background-image: url("https://p6.zdassets.com/hc/theme_assets/1911667/115000201887/115002608787.png");
+}
+.ui-img2 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+  /* align-items: center; */
+  background-size: contain;
+  background-image: url("https://theme.zdassets.com/theme_assets/1911667/ee232e3f1ecaf512cfa67937b4c2db24f5fe73b7.png");
+}
+.ui-img3 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+  /* align-items: center; */
+  background-size: contain;
+  background-image: url("https://p6.zdassets.com/hc/theme_assets/1911667/115000201887/115003199808.png");
+}
+.ui-img4 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+  /* align-items: center; */
+  background-size: contain;
+  background-image: url("https://theme.zdassets.com/theme_assets/1911667/231353112d7c009be31499f70cc97f69143240d7.png");
+}
+.ui-img5 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+  /* align-items: center; */
+  background-size: contain;
+  background-image: url("https://theme.zdassets.com/theme_assets/1911667/a6adf5692cbdcd9d6996c27bb0ed7c30de5ed8f6.png");
+}
+.ui-img6 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+  /* align-items: center; */
+  background-size: contain;
+  background-image: url("https://p6.zdassets.com/hc/theme_assets/1911667/115000201887/115002315328.png");
+}
+.ui-img7 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+  /* align-items: center; */
+  background-size: contain;
+  background-image: url("https://theme.zdassets.com/theme_assets/1911667/d2a3173aa4dde2abe1f3f3170efaa91e77fd7437.png");
+}
+.ui-img8 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+  /* align-items: center; */
+  background-size: contain;
+  background-image: url("https://p6.zdassets.com/hc/theme_assets/1911667/115000201887/115003204947.png");
+}
+.ui-img9 {
+  width: 50px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+  /* align-items: center; */
+  background-size: contain;
+  background-image: url("https://theme.zdassets.com/theme_assets/1911667/74dc68f2ec18a766035d45f721b7a3370e30d87c.png");
+}
+.box-shadow {
+  box-shadow: 10px;
+}
+
+.ui-span {
+  text-align: center;
+}
+.ui-p {
+  margin: 15px;
+  text-align: justify;
+}
+.open-font {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* =========code for help div======= */
+
+.stil-help-main-div {
+  width: 100%;
+  height: 250px;
+  float: left;
+  clear: left;
+}
+.still-need-div1 {
+  width: 35%;
+  height: 200px;
+  float: left;
+  margin: 30px;
+  margin-left: 10%;
+}
+.still-need-div2 {
+  width: 35%;
+  height: 200px;
+  float: left;
+  margin: 30px;
+}
+
+.still-h3 {
+  text-align: center;
+}
+.still-p {
+  text-align: center;
+}
+.stl-btn {
+  border: 1px solid red;
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  margin-left: 200px;
+}
+
+/* <-------------------------style for pricing----------------> */
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.center_text {
+  text-align: center;
+}
+
+#plan {
+  border: 1px solid red;
+  height: 300px;
+  width: 100%;
+  background-image: linear-gradient(red, yellow);
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.button_p {
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  border: white;
+}
+
+#data {
+  height: 610px;
+  width: 60%;
+  border: 1px solid rgb(211, 206, 206);
+  margin: 10px auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#h1_p {
+  padding-top: 450px;
+  font-size: 18px;
+  font-family: "Merriweather Sans", sans-serif;
+  margin-top: 100px;
+}
+
+/* styles user for creating accordian button and text */
+.accordian {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  /* for creating hover effect on button */
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0px 18px;
+  /* for hidding all the panel data */
+  display: none;
+  overflow: hidden;
+}
+
+.active,
+.accordian:hover {
+  background-color: rgb(235, 231, 231);
+}
+
+.accordian::before {
+  content: "\02795";
+  height: 1px;
+  width: 1px;
+}
+
+.active::before {
+  content: "\02796";
+  height: 1px;
+  width: 1px;
+}
+
+.faq {
+  width: 50%;
+  margin: 0px auto;
+}
+.organizations {
+  width: 60%;
+  margin: 0px auto;
+}
+
+.organizations {
+  margin-top: 50px;
+}
+
+.img_p {
+  height: 50px;
+  width: 120px;
+  margin: 20px;
+}
+.big_heading {
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+strong,
+.dark {
+  font-size: 30px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+#personal {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+  color: black;
+  /* display: none; */
+}
+.back_color {
+  background-color: rgb(250, 249, 249);
+  margin-top: 10px;
+  height: 60%;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  border-radius: 10px;
+  margin: 5px;
+}
+.back_color > div {
+  margin: 10px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+.float_left {
+  float: left;
+}
+#slider {
+  width: 80%;
+}
+#business {
+  color: black;
+  display: none;
+}
+table {
+  width: 100%;
+  margin: 10px auto;
+}
+.data_collection > thead {
+  color: gray;
+}
+.tryit {
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.check_box {
+  border: 0px;
+}
+.back_color_gray {
+  background-color: rgb(255, 251, 251);
+}
+#agency {
+  color: black;
+  display: none;
+}
+.agency_img {
+  height: 180px;
+  width: 80%;
+  margin: 10px auto;
+}
+.btn_learn {
+  width: 180px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid gray;
+}
+#margin_20 {
+  margin-top: 20px;
+}
+#below_data {
+  float: left;
+  margin-top: 30px;
+}
+#below_data1 {
+  float: left;
+}
+
+#start {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+}
+#try {
+  background-color: #d5354b;
+  margin-bottom: 20px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* style for privacy */
+
+.privacy_box {
+  height: 700px;
+  width: 100%;
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
+}
+.back_privacy {
+  background-color: rgb(243, 236, 236);
+}
+.half_box {
+  width: 40%;
+  /* border: 1px solid red; */
+}
+.padd_right {
+  padding: 20px;
+}
+.back_orange {
+  background-color: rgb(212, 174, 169);
+}
+.back_blue {
+  background-color: rgb(218, 231, 236);
+}
+.back_pink {
+  background-color: rgb(238, 230, 231);
+}
+.back_green {
+  background-color: rgb(175, 228, 207);
+}
+.back_yellow {
+  background-color: rgb(231, 218, 141);
+}
+.width_privacy {
+  width: 50%;
+}
+.half_half_p {
+  width: 60%;
+  height: 100%;
+}
+
+#privacy_label1,
+#privacy_label2,
+#privacy_label3,
+#privacy_label4,
+#privacy_label5,
+#privacy_label6 {
+  display: none;
+}
+#flex_1 {
+  display: flex;
+  /* flex: 1 1; */
+  justify-content: space-evenly;
+  align-items: center;
+}
+.font_big {
+  font-size: 60px;
+}
+.text_left {
+  text-align: left;
+}
